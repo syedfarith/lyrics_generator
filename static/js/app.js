@@ -2,7 +2,7 @@ document.getElementById('generateBtn').addEventListener('click', generateLyrics)
 
 function generateLyrics() {
     const language = document.getElementById('language').value;
-    const genre = document.getElementById('genre').value;  // Now using the selected dropdown value
+    const genre = document.getElementById('genre').value;  
     const description = document.getElementById('description').value;
 
     if (!description) {
